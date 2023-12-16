@@ -1,5 +1,6 @@
 package ao.rafaelmarcos.avaliacaowidgets;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -37,7 +38,13 @@ public class ChoiceActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v){
-        Toast.makeText(this, "" + mPosition, Toast.LENGTH_SHORT).show();
+        Intent intent;
+        switch(mPosition){
+            case 0: intent = new Intent(this, ProvinciasActivity.class); break;
+            default: intent = null;
+        }
+
+        startActivity(intent);
     }
 
     @Override

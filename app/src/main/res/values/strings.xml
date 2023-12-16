@@ -3,9 +3,31 @@
     <string name="welcome_message">Bem vindo ao menu principal, clique em mim para acessar o hub</string>
     <string name="hub_text">Bem vindo ao hub, selecione que tipo de widget deseja ver</string>
     <string name="choice_button">Ver exemplo</string>
+
     <string-array name="widgets_array">
-        <item>None</item>
+        <item>AutoCompleteTextView</item>
         <item>Null</item>
         <item>Nan</item>
+    </string-array>
+
+    <string-array name="provincias_array">
+        <item>Luanda</item>
+        <item>Cabinda</item>
+        <item>Zaire</item>
+        <item>Bengo</item>
+        <item>Lunda-Sul</item>
+        <item>Lunda-Norte</item>
+        <item>Kwanza-Sul</item>
+        <item>Kwanza-Norte</item>
+        <item>Cuando cubango</item>
+        <item>Moxico</item>
+        <item>Bié</item>
+        <item>Malanje</item>
+        <item>Benguela</item>
+        <item>Cunene</item>
+        <item>Uíge</item>
+        <item>Huambo</item>
+        <item>Huíla</item>
+        <item>Namibe</item>
     </string-array>
 </resources>
