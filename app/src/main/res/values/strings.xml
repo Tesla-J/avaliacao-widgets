@@ -7,7 +7,7 @@
     <string-array name="widgets_array">
         <item>AutoCompleteTextView</item>
         <item>ImageView and ImageButton</item>
-        <item>Nan</item>
+        <item>EditText RadioButton CheckBox</item>
     </string-array>
 
     <string-array name="provincias_array">
@@ -33,4 +33,12 @@
 
     <string name="image_description">Bugdroid image</string>
     <string name="image_button_description">Button with the bugdroid button</string>
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="m">Masculino</string>
+    <string name="f">Feminino</string>
+    <string name="sexo">Sexo</string>
+    <string name="subscrever_newsletter">Subscrever newsletter</string>
+    <string name="confirm_password_hint">Confirm Password</string>
 </resources>

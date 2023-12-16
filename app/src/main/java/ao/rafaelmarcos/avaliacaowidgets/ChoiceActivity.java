@@ -42,6 +42,7 @@ public class ChoiceActivity extends AppCompatActivity implements View.OnClickLis
         switch(mPosition){
             case 0: intent = new Intent(this, ProvinciasActivity.class); break;
             case 1: intent = new Intent(this, ImageActivity.class); break;
+            case 2: intent = new Intent(this, FormActivity.class); break;
 
             default: intent = null;
         }
