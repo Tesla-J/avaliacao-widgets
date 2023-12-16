@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Avaliacao Widgets</string>
+    <string name="welcome_message">Bem vindo ao menu principal, clique em mim para acessar o hub</string>
+</resources>
