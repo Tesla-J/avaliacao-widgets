@@ -6,7 +6,7 @@
 
     <string-array name="widgets_array">
         <item>AutoCompleteTextView</item>
-        <item>Null</item>
+        <item>ImageView and ImageButton</item>
         <item>Nan</item>
     </string-array>
 
@@ -30,4 +30,7 @@
         <item>Huíla</item>
         <item>Namibe</item>
     </string-array>
+
+    <string name="image_description">Bugdroid image</string>
+    <string name="image_button_description">Button with the bugdroid button</string>
 </resources>
