@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v){
-        return;
+        Intent intent = new Intent(this, ChoiceActivity.class);
+        startActivity(intent);
     }
 }

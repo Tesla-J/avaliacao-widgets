@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Avaliacao Widgets</string>
     <string name="welcome_message">Bem vindo ao menu principal, clique em mim para acessar o hub</string>
+    <string name="hub_text">Bem vindo ao hub, selecione que tipo de widget deseja ver</string>
+    <string name="choice_button">Ver exemplo</string>
+    <string-array name="widgets_array">
+        <item>None</item>
+        <item>Null</item>
+        <item>Nan</item>
+    </string-array>
 </resources>
