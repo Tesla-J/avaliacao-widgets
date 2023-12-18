@@ -8,6 +8,7 @@
         <item>AutoCompleteTextView</item>
         <item>ImageView and ImageButton</item>
         <item>EditText RadioButton CheckBox</item>
+        <item>!ProgressDialog</item>
     </string-array>
 
     <string-array name="provincias_array">
@@ -43,4 +44,6 @@
     <string name="confirm_password_hint">Confirm Password</string>
 
     <string name="nonsense_form">Nonsense form</string>
+
+    <string name="processing_something_amazing">Processando algo incrível, espere pra ver</string>
 </resources>

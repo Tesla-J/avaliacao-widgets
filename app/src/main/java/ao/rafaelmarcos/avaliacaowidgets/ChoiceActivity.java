@@ -43,11 +43,11 @@ public class ChoiceActivity extends AppCompatActivity implements View.OnClickLis
             case 0: intent = new Intent(this, ProvinciasActivity.class); break;
             case 1: intent = new Intent(this, ImageActivity.class); break;
             case 2: intent = new Intent(this, FormActivity.class); break;
-
+            case 3: intent = new Intent(this, InfiniteLoadingActivity.class); break;
             default: intent = null;
         }
 
-        startActivity(intent);
+        if(intent != null) startActivity(intent);
     }
 
     @Override
