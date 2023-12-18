@@ -15,6 +15,14 @@ public class ImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_image);
 
         mImageButton = (ImageButton) findViewById(R.id.image_button);
+        /*
+        * Aqui apenas defino um comportamento simples através de uma expressão lambda
+        * quando o ImageButton for clicado, que é mostrar apenas um simples Toast.
+        *
+        * Nota: a imagem utilizada foi a gerada pelo Android Studio para ser
+        * o foreground padrão do ícone da aplicação. Usei tanto no ImageButton
+        * e na ImageView
+        */
         mImageButton.setOnClickListener((v) -> Toast.makeText(this, "Este é um ImageButton", Toast.LENGTH_SHORT).show());
     }
 }
