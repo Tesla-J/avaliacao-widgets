@@ -41,4 +41,6 @@
     <string name="sexo">Sexo</string>
     <string name="subscrever_newsletter">Subscrever newsletter</string>
     <string name="confirm_password_hint">Confirm Password</string>
+
+    <string name="nonsense_form">Nonsense form</string>
 </resources>
