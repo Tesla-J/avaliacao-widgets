@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         /*
-        * Podemos determinar o comportamento de um botão quando ele é clicado
+        * Podemos determinar o comportamento de uma View quando ela é clicada
         * adicionando como parâmetro no método setOnClickListener um objeto de
         * uma classe que implementa a interface View.OnClickListener, uma classe
         * anônima ou uma expressão lambda. Optei pela primeira alternativa para
